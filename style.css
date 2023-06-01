@@ -21,17 +21,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff; 
-}
+  }
   
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
    
-} 
+  } 
 .header-items{
   position:relative;
 }
 .header-items img {
   position: absolute;
-  top: 14;
+  top: 14px;
   right: 0;
   height: 14px;
 } 
@@ -62,10 +62,11 @@ h2 {
   color: #344563;
   flex: none;
   order: 1;
-  flex-grow: 0;
+  flex-grow: 0; 
+  left: 10px;
 }
 .Logo {
-   width: 76px;
+  width: 76px;
   height: 20px;
   font-family: 'Poppins';
   font-style: normal;
@@ -79,4 +80,13 @@ h2 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  position: fixed;
+  top: 14px;
+  left: 10px;
+}
+.Union { 
+  position: absolute;
+  top: 14pxpx;
+  right: 10px;
+
 }
