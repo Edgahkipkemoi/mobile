@@ -1,18 +1,18 @@
 /* stylelint-disable csstree/validator */
 
-h1 {
-  width: 76px;
-  height: 20px;
+/* stylelint-disable-next-line block-opening-brace-space-before */
+h1{
+  width: 327px;
+  height: 150px;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 40px;
+  line-height: 52px;
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #6070ff;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -76,7 +76,8 @@ h2 {
   flex: none;
   order: 1;
   flex-grow: 0;
-  left: 10px;
+  left: 24px;
+  top: 276px;
 }
 
 .Logo {
@@ -101,9 +102,26 @@ h2 {
 }
 
 .Union {
-  position: absolute;
+  position: fixed;
   /* stylelint-disable-next-line unit-no-unknown */
-  top: 14pxpx;
+  top: 14px;
   right: 10px;
-  margin-top: -7px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  order: 3;
+  flex-grow: 0;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
 }

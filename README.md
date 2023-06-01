@@ -43,25 +43,12 @@
 ### Key Features <a name="key-features"></a>
 
 - [Setting up Linters according to gitflow proffessional requirements]
-- [Adding html and css ]
-- [styling contents with regards to mobile deigns]
+- [Adding html and css]
+- [Styling contents with regards to mobile designs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Presentation of Portfolio -->
-## 🚀 Portfolio Outline <a name="Portfolio Outline"></a>
 
-- [Loom Presentation link](https://www.loom.com/share/f8cf57f2f3a54c838f9d556a768b230e)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://Edgahkipkemoi.github.io/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -108,7 +95,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-- Github pages
+- Github repositories
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +122,6 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
