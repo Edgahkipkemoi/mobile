@@ -25,6 +25,10 @@ body {
   background-color: #fff;
 }
 
+/* stylelint-disable-next-line block-no-empty */
+@media screen and (min-width: 375px) {
+}
+
 @media screen and (min-width: 768px) {
 
   /* stylelint-disable-next-line block-closing-brace-newline-after */
