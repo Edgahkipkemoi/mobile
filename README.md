@@ -38,8 +38,6 @@
 - HTML
 - CSS
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - [Setting up Linters according to gitflow proffessional requirements]
@@ -47,8 +45,6 @@
 - [Styling contents with regards to mobile designs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -99,14 +95,12 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
 
 - GitHub: [@Edgahkipkemoi](https://github.com/Edgahkipkemoi)
-
+- LinkedIn: [Edgahkipkemoi](https://linkedin.com/in/Edgahkipkemoi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +125,7 @@ If you like this project you can share.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
