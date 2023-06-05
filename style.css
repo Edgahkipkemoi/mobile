@@ -441,3 +441,15 @@ ul {
   margin-right: 150px;
   justify-content: center;
 }
+
+.see-project:hover {
+  text-decoration: underline;
+  /* stylelint-disable-next-line color-hex-case */
+  text-decoration-color: #396DF2;
+}
+
+.getmy:hover {
+  text-decoration: underline;
+  /* stylelint-disable-next-line color-hex-case */
+  text-decoration-color: #396DF2;
+}
