@@ -452,4 +452,7 @@ ul {
   text-decoration: underline;
   /* stylelint-disable-next-line color-hex-case */
   text-decoration-color: #396DF2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
