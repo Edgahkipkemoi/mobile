@@ -1,11 +1,7 @@
-/* stylelint-disable csstree/validator */
-
-/* stylelint-disable-next-line block-opening-brace-space-before */
 h1 {
   width: 327px;
   height: 150px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -25,16 +21,21 @@ body {
   background-color: white;
 }
 
-/* stylelint-disable-next-line block-no-empty */
 @media screen and (min-width: 375px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  /* stylelint-disable-next-line block-closing-brace-newline-after */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
-/* stylelint-disable-next-line block-opening-brace-space-before */
+
 .header-items {
-  /* stylelint-disable-next-line declaration-colon-space-after */
   position: relative;
 }
 
@@ -48,8 +49,7 @@ body {
 h2 {
   width: 327px;
   height: 150px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -67,8 +67,7 @@ h2 {
 .container p {
   width: 327px;
   height: 146px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -84,8 +83,7 @@ h2 {
 .Logo {
   width: 76px;
   height: 20px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -104,7 +102,6 @@ h2 {
 
 .Union {
   position: absolute;
-  /* stylelint-disable-next-line unit-no-unknown */
   top: 14px;
   right: 10px;
 }
@@ -128,9 +125,7 @@ h2 {
   margin-right: 0;
 }
 
-/* stylelint-disable-next-line block-opening-brace-space-before */
 #my-section {
-  /* stylelint-disable-next-line declaration-colon-space-after */
   background-image: url(img/header-shapes\ mobile@2x.svg);
   background-size: cover;
   background-position: center;
@@ -157,8 +152,7 @@ p {
 .together p {
   width: 295px;
   height: 76px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -211,14 +205,12 @@ ul {
   color: #6070ff;
   border: none;
   margin-bottom: -3rem;
-  /* stylelint-disable-next-line property-no-unknown */
   font-size: 12px;
 }
 
 .see-project {
   height: 42px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -227,7 +219,6 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  /* stylelint-disable-next-line color-hex-case */
   color: #396df2;
   flex: none;
   order: 0;
@@ -250,8 +241,7 @@ ul {
 .p {
   width: 295px;
   height: 76px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -264,8 +254,7 @@ ul {
 
 .getmy {
   height: 42px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -291,10 +280,8 @@ ul {
   height: 24px;
   left: 12px;
   right: 78px;
-  /* stylelint-disable-next-line function-calc-no-unspaced-operator */
   top: calc(50% - 24px / 2);
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -324,7 +311,6 @@ ul {
   position: absolute;
   /* stylelint-disable-next-line color-hex-length */
   background: #ffffff;
-  /* stylelint-disable-next-line color-hex-case */
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
@@ -339,8 +325,7 @@ ul {
   height: 56px;
   left: -213px;
   top: 4734px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -357,12 +342,26 @@ ul {
   color: #000;
 }
 
+#py {
+  font-weight: bold;
+  color: #000;
+}
+
+#atii {
+  font-weight: bold;
+  color: #000;
+}
+
+#baas {
+  font-weight: bold;
+  color: #000;
+}
+
 .inline-paragraph {
   display: inline;
-  /* stylelint-disable-next-line color-hex-case */
   color: #7a869a;
 }
-/* stylelint-disable-next-line CssSyntaxError */
+
 .textp {
   white-space: nowrap;
   display: inline;
@@ -372,13 +371,11 @@ ul {
 .devend {
   width: 88px;
   height: 16px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 1800;
   font-size: 13px;
   line-height: 16px;
-  /* stylelint-disable-next-line color-hex-case */
   color: #7a869a;
   flex: none;
   order: 0;
@@ -389,13 +386,11 @@ ul {
 .unique {
   width: 29px;
   height: 16px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* stylelint-disable-next-line color-hex-case */
   color: #7a869a;
   flex: none;
   order: 0;
@@ -407,7 +402,7 @@ ul {
   justify-content: space-between;
   display: flex;
   float: left;
-  margin-bottom: 1px; /* Adjust the spacing between the image and text as needed */
+  margin-bottom: 1px;
 }
 
 .unionsvg .text {
@@ -443,15 +438,17 @@ ul {
 }
 
 .see-project:hover {
+  background-color: #6070ff;
   text-decoration: underline;
-  /* stylelint-disable-next-line color-hex-case */
-  text-decoration-color: #396DF2;
+  text-decoration-color: #396df2;
+  color: white;
 }
 
 .getmy:hover {
+  color: white;
+  background-color: #6070ff;
   text-decoration: underline;
-  /* stylelint-disable-next-line color-hex-case */
-  text-decoration-color: #396DF2;
+  text-decoration-color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
