@@ -599,4 +599,5 @@ input[type="submit"]:hover {
 .tena {
   align-items: center;
   margin-bottom: -10px;
+  border: 0;
 }
