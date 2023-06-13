@@ -171,6 +171,10 @@ ul {
   margin-left: -2.6rem;
 }
 
+ul > li {
+  float: right;
+}
+
 .my-button {
   display: inline-block;
   font-family: "Poppins", sans-serif;
