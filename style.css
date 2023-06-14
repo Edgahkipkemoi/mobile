@@ -474,8 +474,6 @@ ul {
   align-items: center;
   background-size: 100% 100%;
   background-position: top;
-  width: 375px;
-  height: 779px;
   margin-top: 4px;
   border-top-left-radius: 12%;
 }
@@ -493,7 +491,6 @@ ul {
 
 .contact-me p {
   position: absolute;
-  width: 327px;
   left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
