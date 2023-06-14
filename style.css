@@ -457,6 +457,7 @@ ul {
 .contact-me h2 {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   /* stylelint-disable-next-line color-hex-length */
   color: #ffffff;
@@ -464,6 +465,7 @@ ul {
 }
 
 .contact-me {
+  background-image: url(img/contact\ form\ shapes-mobile@2x.svg);
   background-color: #6070ff;
   background-repeat: no-repeat;
   display: flex;
@@ -476,7 +478,6 @@ ul {
   height: 779px;
   margin-top: 4px;
   border-top-left-radius: 12%;
-  background-image: url(img/contact\ form\ shapes-mobile@2x.svg);
 }
 
 .message {
@@ -511,6 +512,7 @@ form {
 
 .heading {
   margin-top: 1000px;
+  text-align: center;
 }
 
 textarea {
@@ -526,6 +528,7 @@ textarea {
 input[type="email"] {
   width: 327px;
   height: 48px;
+  padding-left: 10px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   font-family: "Poppins", sans-serif;
@@ -551,6 +554,7 @@ input[type="message"]::placeholder {
 input[type="text"] {
   width: 327px;
   height: 48px;
+  padding-left: 10px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   font-family: "Poppins", sans-serif;
@@ -575,6 +579,7 @@ input[type="submit"] {
   letter-spacing: 0.03em;
   color: #396df2;
   flex: none;
+  padding-left: 12px;
 }
 
 input[type="submit"]:hover {
