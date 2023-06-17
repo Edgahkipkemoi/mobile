@@ -156,6 +156,7 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 6px;
+    margin-left: 16px;
   }
 }
 
@@ -240,6 +241,7 @@ header {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.48px;
+  margin-top: 64px;
 }
 
 .css {
@@ -257,6 +259,7 @@ header {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.48px;
+  margin-top: 64px;
 }
 
 .javascript {
@@ -274,6 +277,7 @@ header {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.48px;
+  margin-top: 64px;
 }
 
 .see-button {
@@ -899,6 +903,7 @@ input {
   .languages-list {
     margin-left: -5.3rem;
     margin-top: -8.5rem;
+    margin-bottom: 10px;
   }
 
   .see-button {
