@@ -1105,9 +1105,12 @@ input {
   #get-in-touch {
     margin-left: 30%;
     border: none;
+    transition: 3s;
   }
 
   #get-in-touch:hover {
     background-color: #2230d2;
+    background-color: blue;
+    border-style: dotted;
   }
 }
