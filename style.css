@@ -1105,7 +1105,7 @@ input {
   #get-in-touch {
     margin-left: 30%;
     border: none;
-    transition:3s;
+    transition: 3s;
   }
 
   #get-in-touch:hover {
