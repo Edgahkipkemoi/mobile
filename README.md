@@ -100,7 +100,7 @@ You can deploy this project using:
 👤 **Author1**
 
 - GitHub: [@Edgahkipkemoi](https://github.com/Edgahkipkemoi)
-- LinkedIn: [Edgahkipkemoi](https://linkedin.com/in/Edgahkipkemoi)
+- LinkedIn: [Edgahkipkemoi](https://www.linkedin.com/in/edgah-kipkemoi-3797b8257)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
