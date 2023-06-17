@@ -12,8 +12,6 @@ header {
   height: 48px;
   margin-left: 6px;
   margin-top: -7px;
-  gap: 38%;
-  position: fixed;
 }
 
 #logo {
@@ -773,8 +771,9 @@ input {
   body {
     padding: 0;
     margin: 0;
-    width: 100%;
+    width: auto;
     overflow-x: hidden;
+    margin-right: 10px;
   }
 
   .sijijui img {
@@ -851,6 +850,7 @@ input {
     margin-top: 100px;
     height: 60vh;
     width: 100%;
+    padding-right: 90%;
   }
 
   .project-img {
@@ -957,8 +957,8 @@ input {
     flex-direction: column;
     width: 50%;
     float: right;
-    margin-left: 35rem;
-    margin-top: -65rem;
+    margin-left: 32rem;
+    margin-top: -34rem;
   }
 
   .down-arrow {
@@ -1067,6 +1067,7 @@ input {
   .contact-section {
     width: 100%;
     background-image: url(img/contact\ form\ background\ shapes@2x.png);
+    position: absolute;
   }
 
   .text-container {
