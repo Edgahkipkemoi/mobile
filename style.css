@@ -795,6 +795,11 @@ input {
     gap: 15%;
   }
 
+  .nav-item {
+    display: inline-block;
+    gap: 15%;
+  }
+
   .nav-item a {
     font-size: 1rem;
     color: #000;
