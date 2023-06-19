@@ -33,6 +33,7 @@
 # 📖 [MOBILE] <a name="about-project"></a>
 
 **[MOBILE]**  Is a mobile porfolio website that is built in html and css and it entails my resume.
+
 Check out the live version of my portfolio [here](https://edgahkipkemoi.github.io/mobile/).
 
 ## 🛠 Built With <a name="built-with"></a>
