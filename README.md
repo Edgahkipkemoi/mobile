@@ -37,6 +37,8 @@
 
 Check out the live version of my portfolio [here](https://edgahkipkemoi.github.io/mobile/).
 
+Here is the walk through my project https://www.loom.com/share/4b520951bb454bec88b498012529abda
+
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
