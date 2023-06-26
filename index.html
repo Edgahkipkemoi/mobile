@@ -9,43 +9,44 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
     <header>
         <a href="#" id="logo" class="name-logo">My logo</a>
         <nav class="navbar">
-          <img src="img/Union.svg" alt="hamburger" class="hamburger">
+            <div id="mobile-menu" class="mobile-menu">
+               
+                <div class="cancel"><i id="cancel-btn" class="fa-solid fa-x"></i></div>
+               <div id="navs">
+                <a href="#work">Portfolio</a>
+                <a href="#aboutmyself">About</a>
+                <a href="#contact">Contact</a>
+                </div>
+            </div>
+          <img src="img/Union.svg"  id="hamburger" alt="hamburger" class="hamburger">
           <ul id="nav-items">
+            
             <li class="nav-item"><a href="#">Portfolio</a></li>
             <li class="nav-item"><a href="#">About</a></li>
             <li class="nav-item"><a href="#">Contact</a></li>
+            
           </ul>
+          
         </nav>
       </header>
-    <!-- <header>
-        <a href="#" id="logo" class="name-logo">My logo</a>
-        <nav class="navbar">
-            <img src="img/Union.svg" alt="humburger" class="humburger">
-            <ul id="nav-items">
-                <li class="nav-item"><a href="#">Portfolio</a></li>
-                <li class="nav-item"><a href="#">About</a></li>
-                <li class="nav-item"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header> -->
 
  
     <section class="header-info-secion">
 
-        <div class="main-section">
+        <div id="portfolio" class="main-section">
             <h1 class="greeting-hearder">I’m Edgah <br> Glad to see you!</h1>
             <p class="greeting-text">I’m a software developer! I can help you build a product , feature or website Look
                 through some of my work and experience! If you like what you see and have a project you need coded,
@@ -75,7 +76,7 @@
     </section>
 
     
-    <section class="work">
+    <section id="work" class="work">
         <div class="card-container">
             <img src="img/Snapshoot Portfolio.svg" alt="Project Snapshoot" class="project-img">
            
@@ -159,7 +160,7 @@
     </section>
 
     
-    <section class="about">
+    <section id="aboutmyself" class="about">
         <div class="left-grid">
             <h1 class="about-h1">About Myself</h1>
             <p class="info-summary">Hello I’m a software developer! I can help you build a product , feature or website Look
@@ -233,7 +234,7 @@
     </section>
 
    
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="text-container">
             <h2 class="contact-me-text">Contact me</h2>
             <p class="contact-description">If you have an application you are interested in developing, a feature that
@@ -266,6 +267,8 @@
             </ul>
         </form>
     </section>
-</body>
+
+    <script src="/script.js"></script>
+ </body>
 
 </html>
