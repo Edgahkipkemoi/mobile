@@ -21,22 +21,17 @@
 
 <body id="body">
     <header>
-        <a href="index.html" id="logo" class="name-logo">Edgah</a>
+        <a href="index.html" id="logo" class="name-logo">Edgah/a>
 
-        
+        <div id="sideNav" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" id="xOut" onclick="closeNav()">×</a>
+            <a href="#work" class="side-items" onclick="closeNav()">Portfolio</a>
+            <a href="#about" class="side-items" onclick="closeNav()">About</a>
+            <a href="#contact" class="side-items" onclick="closeNav()">Contact</a>
+        </div>
         <nav class="navbar">
-            <div id="mobile-menu" class="mobile-menu">
-               
-                <div class="cancel"><i id="cancel-btn" class="fa-solid fa-x"></i></div>
-               <div id="navs">
-                <a href="#work">Portfolio</a>
-                <a href="#aboutmyself">About</a>
-                <a href="#contact">Contact</a>
-                </div>
-            </div>
-            
             <span onclick="openNav()" id="toggleSpan">
-                <img src="img/Union.svg" alt="humburger" class="humburger openbtn">
+                <img src="icons/union.png" alt="humburger" class="humburger openbtn">
             </span>
             <ul id="nav-items">
                 <li class="nav-item"><a href="#work">Portfolio</a></li>
@@ -66,7 +61,7 @@
                     <img src="img/Linkedin icon.svg" alt="LinkedIn Icon">
                 </li>
                 <li class="angel">
-                    <img src="img/peace icon.svg" alt="AngelList Icon">
+                    <img src="img/peace icon.svg" alt="peace Icon">
                 </li>
                 <li class="twitter">
                     <img src="img/twitter icon.svg" alt="Twitter Icon">
@@ -81,9 +76,6 @@
     <section id="projects">
 
     </section>
-    
-
-    
     <!-- About section -->
     <section class="about" id="about">
         <div class="left-grid">
@@ -95,7 +87,7 @@
                 hestiate to contact me.</p>
             <h4 class="connect2">LET'S CONNECT</h4>
 
-            <ul id="social-icons2">t
+            <ul id="social-icons2">
                 <li class="github">
                     <img src="img/git icon.svg" alt="GitHub Icon">
                 </li>
@@ -169,9 +161,7 @@
                 I’d love to help with it!</p>
         </div>
 
-        <form class="responsive-form"
-        action="https://formspree.io/f/xyyarenb" 
-        method="post" id="form">
+        <form action="https://formspree.io/f/mnqygppw" method="post" id="form">
             <ul>
                 <li>
                     <label for="name"></label>
