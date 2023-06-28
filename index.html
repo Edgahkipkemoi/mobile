@@ -7,20 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edgah Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    
 </head>
 
-<body>
+<body id="body">
     <header>
-        <a href="#" id="logo" class="name-logo">My logo</a>
+        <a href="index.html" id="logo" class="name-logo">Edgah</a>
+
+        
         <nav class="navbar">
             <div id="mobile-menu" class="mobile-menu">
                
@@ -31,22 +34,22 @@
                 <a href="#contact">Contact</a>
                 </div>
             </div>
-          <img src="img/Union.svg"  id="hamburger" alt="hamburger" class="hamburger">
-          <ul id="nav-items">
             
-            <li class="nav-item"><a href="#">Portfolio</a></li>
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
-            
-          </ul>
-          
+            <span onclick="openNav()" id="toggleSpan">
+                <img src="img/Union.svg" alt="humburger" class="humburger openbtn">
+            </span>
+            <ul id="nav-items">
+                <li class="nav-item"><a href="#work">Portfolio</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-      </header>
+    </header>
 
- 
-    <section class="header-info-secion">
+    <!-- Header Section -->
+    <section class="header-info-secion" id="intro">
 
-        <div id="portfolio" class="main-section">
+        <div class="main-section">
             <h1 class="greeting-hearder">I’m Edgah <br> Glad to see you!</h1>
             <p class="greeting-text">I’m a software developer! I can help you build a product , feature or website Look
                 through some of my work and experience! If you like what you see and have a project you need coded,
@@ -74,120 +77,24 @@
             </ul>
         </div>
     </section>
-    
-<div class=""></div>
-    
-    <section id="work" class="work">
-        <div class="card-container">
-            <img src="img/Snapshoot Portfolio.svg" alt="Project Snapshoot" class="project-img">
-           
-            <div class="wrap">
+    <!-- Work Cards Section -->
+    <section id="projects">
 
-                <h2 class="card-tittle">Tonic</h2>
-                <div class="frame2-img">
-                    <img src="img/Frame 2.png" alt="Tonic">
-                </div>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.</p>
-                <ul class="languages-list">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="javascript">javascript</li>
-                </ul>
-
-                <button type="button" class="see-button">See Project</button>
-            </div>
-
-        </div>
-
-        <div class="card-container">
-            <img src="img/snapshot 2.svg" alt="Project Snapshoot" class="project-img order-2">
-            <div class="wrap">
-
-
-                <h2 class="card-tittle">Multi-Post Stories</h2>
-                <div class="frame2-img">
-                    <img class="jaribu" src="img/Frame 2.png" alt="art printing">
-                </div>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.</p>
-                <ul class="languages-list">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="javascript">javascript</li>
-                </ul>
-                <button type="button" class="see-button">See Project</button>
-            </div>
-
-        </div>
-
-        <div class="card-container">
-            <img src="img/facebook360.svg" alt="Project Snapshoot" class="project-img">
-            <div class="wrap">
-                <h2 class="card-tittle">Tonic</h2>
-                <div class="frame2-img">
-                    <img src="img/Frame 2.png" alt="">
-                </div>
-
-    
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.</p>
-                <ul class="languages-list">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="javascript">javascript</li>
-                </ul>
-                <button type="button" class="see-button">See Project</button>
-            </div>
-        </div>
-
-        <div class="card-container">
-            <img src="img/availability.svg" alt="Project Snapshoot" class="project-img order-2">
-            <div class="wrap">
-                <h2 class="card-tittle">Multi-Post Stories</h2>
-                <div class="frame2-img">
-                    <img src="img/Frame 2.png" alt="">
-                </div>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.</p>
-                <ul class="languages-list">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="javascript">javascript</li>
-                </ul>
-                <button type="button" class="see-button">See Project</button>
-            </div>
-        </div>
     </section>
-
+    
 
     
-    <!-- Popup Window -->
-  <div id="popup" style="display: none;">
-    <span class="close-btn">&times;</span>
-    <h2 id="popup-title"></h2>
-    <h3 id="popup-title2"></h3>
-    <p id="popup-description"></p>
-    <img id="popup-image" src="" alt="Project Image">
-    <ul id="popup-technologies">
-      <li id="popup-technology-1"></li>
-      <li id="popup-technology-2"></li>
-      <li id="popup-technology-3"></li>
-    </ul>
-    <a id="live-link" href="#" target="_blank">Live Version</a>
-    <a id="source-link" href="#" target="_blank">Source Code</a>
-  </div>
-
-
-    <!-- about myself section -->
-    <section id="aboutmyself" class="about">
+    <!-- About section -->
+    <section class="about" id="about">
         <div class="left-grid">
             <h1 class="about-h1">About Myself</h1>
-            <p class="info-summary">Hello I’m a software developer! I can help you build a product , feature or website Look
-                through some of my work and experience! If you like what you see and have a project you need coded, don’t
+            <p class="info-summary">Hello I’m a software developer! I can help you build a product , feature or website
+                Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t
                 hestiate to contact me.</p>
             <h4 class="connect2">LET'S CONNECT</h4>
-    
+
             <ul id="social-icons2">
                 <li class="github">
                     <img src="img/git icon.svg" alt="GitHub Icon">
@@ -205,7 +112,7 @@
                     <img src="img/Mobile icon.svg" alt="Medium Icon">
                 </li>
             </ul>
-    
+
             <button type="button" class="see-button2">Get my resume</button>
         </div>
 
@@ -250,12 +157,11 @@
                 </ul>
             </div>
         </div>
-        
+
     </section>
 
-   <!-- contact section  -->
-
-    <section id="contact" class="contact-section">
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
         <div class="text-container">
             <h2 class="contact-me-text">Contact me</h2>
             <p class="contact-description">If you have an application you are interested in developing, a feature that
@@ -264,23 +170,23 @@
         </div>
 
         <form class="responsive-form"
-        action="https://formspree.io/f/xyyarenb"
-        method="POST" >
+        action="https://formspree.io/f/xyyarenb" 
+        method="post" id="form">
             <ul>
                 <li>
                     <label for="name"></label>
-                    <input type="text" id="name" name="user_name" maxlength="30"  placeholder="Lorem Ipsum" required>
+                    <input type="text" id="name" name="user_name" maxlength="30" required placeholder="Lorem Ipsum">
                 </li>
 
                 <li>
                     <label for="email"></label>
-                    <input type="email" id="email" name="user_email"  placeholder="loremipsum@gmail.com" required>
+                    <input type="email" id="email" name="user_email" required placeholder="loremipsum@gmail.com">
                 </li>
 
                 <li>
                     <label for="msg"></label>
-                    <textarea name="msg" id="msg" cols="30" rows="10" maxlength="500" 
-                        placeholder="Write your message here..." required></textarea>
+                    <textarea name="msg" id="msg" cols="30" rows="10" maxlength="500" required
+                        placeholder="Write your message here..."></textarea>
                 </li>
                 <button type="submit" id="get-in-touch">
                     <p class="git-text">Get in touch</p>
@@ -288,8 +194,9 @@
             </ul>
         </form>
     </section>
-    <script src="/script.js"></script>
+    <div class="expandcard"></div>
+    <script src="script.js"></script>
     <script src="popup.js"></script>
- </body>
+</body>
 
 </html>
