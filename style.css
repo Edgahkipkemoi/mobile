@@ -14,6 +14,75 @@ header {
   margin-top: -7px;
 }
 
+#sideNav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  min-width: 375px;
+  padding: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  opacity: 0.8;
+  overflow-y: auto;
+  background-color: #6070ff;
+  transition: width 0.3s ease-in-out;
+}
+
+#sideNav.active {
+  display: block;
+  width: 450px;
+}
+
+/* .sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 375px;
+  padding: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  top: 8px;
+  left: 16px;
+  opacity: 0.8;
+} */
+
+.sidebar .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#xOut {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 #logo {
   font-family: "poppins", sans-serif;
   font-size: 1.125rem;
@@ -42,6 +111,12 @@ header {
   opacity: 0.9;
 }
 
+.cancel-btn {
+  justify-content: flex-end;
+  display: flex;
+  width: 355px;
+}
+
 .cancel {
   width: 100%;
   height: 10%;
@@ -50,6 +125,10 @@ header {
   text-align: end;
   color: #fff;
 }
+
+/* .sidebar {
+  display: none;
+} */
 
 .cancel i {
   width: 24px;
