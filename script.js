@@ -45,8 +45,6 @@ function handleSubmit(event) {
 }
 form.addEventListener('submit', handleSubmit);
 
-/* preserve for local storage */
-
 const fullNameInfo = document.getElementById('name');
 const emailInfo = document.getElementById('email');
 const messageInfo = document.getElementById('msg');
