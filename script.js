@@ -23,7 +23,6 @@ menuBar.addEventListener('click', showMenuFunction);
 cancelIcon.addEventListener('click', hideMenuFunction);
 sideItems.addEventListener('click', () => { sideNav.style.display = 'none'; });
 
-// Contact for validation and giving error feedback
 const form = document.querySelector('form');
 function handleSubmit(event) {
   event.preventDefault();
