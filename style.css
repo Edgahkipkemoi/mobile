@@ -767,7 +767,6 @@ header {
   background-image: url(img/contact\ form\ shapes-mobile@2x.png);
   background-size: cover;
   width: 375px;
-  height: 48rem;
   background-color: #6070ff;
   border-top-left-radius: 75px;
   display: flex;
@@ -891,6 +890,13 @@ input {
 #get-in-touch:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.errorMsg {
+  color: #fff;
+  padding: 10px;
+  align-items: center;
+  padding-left: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1191,11 +1197,9 @@ input {
   }
 
   /* Contact Section Desktop */
-
   .contact-section {
     width: 100%;
     background-image: url(img/contact\ form\ background\ shapes@2x.png);
-    position: absolute;
   }
 
   .text-container {
@@ -1228,12 +1232,14 @@ input {
   #get-in-touch {
     margin-left: 30%;
     border: none;
-    transition: 3s;
+  }
+
+  .errorMsg {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
   }
 
   #get-in-touch:hover {
     background-color: #2230d2;
-    background-color: blue;
-    border-style: dotted;
   }
 }
