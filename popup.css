@@ -47,7 +47,7 @@
 /* Popup Styling start */
 .modal-body {
   position: relative;
-  width: 320px;
+  width: 85%;
   height: 90%;
   margin: 0 auto;
   padding: 16px;
@@ -394,8 +394,8 @@ small {
   }
 
   .modal-body {
-    width: 1156px;
-    height: 800px;
+    width: 30%;
+    height: 90%;
   }
 
   nav a:link,
@@ -412,10 +412,12 @@ small {
   }
 
   .image-img {
-    height: 472px;
-    width: 692px;
+    height: 100%;
+    width: 100%;
     align-self: center;
     margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
   }
 
   span {
