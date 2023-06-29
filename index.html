@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="popup.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,24 +22,26 @@
 <body id="body">
     <header>
         <a href="index.html" id="logo" class="name-logo">Edgah</a>
-
+    
         <div id="sideNav" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" id="xOut" onclick="closeNav()">×</a>
-            <a href="#work" class="side-items" onclick="closeNav()">Portfolio</a>
-            <a href="#about" class="side-items" onclick="closeNav()">About</a>
-            <a href="#contact" class="side-items" onclick="closeNav()">Contact</a>
+            <div class="cancel-btn"><img src="img/Enabled.svg" id="cancel-icon"></div>
+          <span class="column">
+            <a href="#projects" class="side-items" >Portfolio</a>
+            <a href="#about" class="side-items" >About</a>
+            <a href="#contact" class="side-items">Contact</a>
+          </span>
         </div>
         <nav class="navbar">
-            <span onclick="openNav()" id="toggleSpan">
-                <img src="img/Union.svg" alt="humburger" class="humburger openbtn">
-            </span>
-            <ul id="nav-items">
-                <li class="nav-item"><a href="#work">Portfolio</a></li>
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
-            </ul>
+          <span onclick="openNav()" id="toggleSpan">
+            <img src="img/Union.svg" alt="humburger" class="humburger openbtn">
+          </span>
+          <ul id="nav-items">
+            <li class="nav-item"><a href="#work">Portfolio</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
 
     <!-- Header Section -->
     <section class="header-info-secion" id="intro">
@@ -161,7 +163,8 @@
                 I’d love to help with it!</p>
         </div>
 
-        <form action="https://formspree.io/f/mnqygppw" method="post" id="form">
+        <form action="https://formspree.io/f/xyyarenb" 
+        method="post" id="form">
             <ul>
                 <li>
                     <label for="name"></label>
