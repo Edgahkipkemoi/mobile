@@ -260,7 +260,7 @@ for (let i = 0; i < showButton.length; i += 1) {
                         />
                       </svg>
                     </button>
-                    <button class="modal-button source">
+                    <button class="modal-button source" target="_blank">
                       See source
                       <span>
                       <svg
