@@ -44,3 +44,30 @@ function handleSubmit(event) {
   }
 }
 form.addEventListener('submit', handleSubmit);
+
+const fullNameInfo = document.getElementById('name');
+const emailInfo = document.getElementById('email');
+const messageInfo = document.getElementById('msg');
+
+function savedFormData() {
+  const formData = {
+    name: fullNameInfo.value,
+    email: emailInfo.value,
+    msg: messageInfo.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+fullNameInfo.addEventListener('input', savedFormData);
+emailInfo.addEventListener('input', savedFormData);
+messageInfo.addEventListener('input', savedFormData);
+
+window.addEventListener('load', () => {
+  const savedData = localStorage.getItem('formData');
+  if (savedData) {
+    const formData = JSON.parse(savedData);
+    fullNameInfo.value = formData.name;
+    emailInfo.value = formData.email;
+    messageInfo.value = formData.msg;
+  }
+});
